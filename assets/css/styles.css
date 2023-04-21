@@ -509,7 +509,7 @@ img {
   transform: rotate(-180deg);
  }
 
-/*==================== QUALIFICATION ====================*/
+/*==================== QUALIFICATION  ====================*/
 .qualification__tabs {
   display: flex;
   justify-content: space-evenly;
@@ -566,7 +566,7 @@ img {
   width: 1px;
   height: 100%;
   background-color: var(--first-color);
-  transform: translateY(6px, -7px   );
+  transform: translate(6px, -7px   );
 }
 
 .qualification [data-content]{
@@ -575,6 +575,10 @@ img {
 
 .qualification__active [data-content] {
   display: block;
+}
+
+.qualification__button.qualification__active {
+  color: var(--first-color);
 }
 
 /*==================== SERVICES ====================*/
