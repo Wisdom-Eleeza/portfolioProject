@@ -90,22 +90,35 @@ modalCloses.forEach((modalClose) => {
     })
 })
 /*==================== PORTFOLIO SWIPER  ====================*/
-let swiper = new Swiper('.portfolio__container', {
-    cssMode: true,
-    loop: true,
+// let swiper = new Swiper('.portfolio__container', {
+//     cssMode: true,
+//     loop: true,
 
+//     navigation: {
+//         nextEl: '.swiper-button-next',
+//         prevEl: '.swiper-button-prev',
+//     },
+//     pagination: {
+//         el: '.swiper-pagination',
+//         clickable: true,
+//     },
+
+//     // mousewheel: true,
+//     // Keyboard: true,
+// });
+
+var swiper = new Swiper(".portfolio__container", {
+    cssMode: true,
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
     pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
+      el: ".swiper-pagination",
     },
-
-    // mousewheel: true,
-    // Keyboard: true,
-});
+    mousewheel: true,
+    keyboard: true,
+  });
 
 // const swiper = new Swiper('.swiper', {
 //     // Optional parameters
